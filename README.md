@@ -42,3 +42,22 @@ An XML parser is a software component that reads in XML (eXtensible Markup Langu
       Access is unidirectional (no jumping back). Complex searches are more cumbersome to program.
     * ### Typical libraries  
       XmlDocReader (Delphi) XmlReader (C#/.NET), xml.sax (Python), SAXParser (Java).
+
+# Parse Example
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book id="1">
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <price>24.99</price>
+    </book>
+    <book id="2">
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <price>15.00</price>
+    </book>
+</bookstore>
+```
