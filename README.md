@@ -69,6 +69,8 @@ If values are changed, added, or removed, the same change must be applied in the
 ```"Keywords.pas"``` unit.
 Otherwise, color errors will occur.
 
+The code is designed so that the keywords are used for the XML tags, which in this case are displayed in blue.
+
 # Text Formatting:
 Formatting XML text usually involves either indenting it for better readability (pretty-printing) or preserving text formatting (such as line breaks and whitespace) within the data.
 
