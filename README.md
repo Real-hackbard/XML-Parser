@@ -109,3 +109,8 @@ To structure text with line breaks and ensure the parser maintains them:
     Line 1 of text &#xA;Line 2 of text &#xA;Line 3 of text
 </message>
 ```
+
+</br>
+
+# Applications
+XML has come into common use for the interchange of data over the Internet. Hundreds of document formats using XML syntax have been developed, including [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(web_standard)), [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML), [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument), [SVG](https://en.wikipedia.org/wiki/SVG), [COLLADA](https://en.wikipedia.org/wiki/COLLADA), and [XHTML](https://en.wikipedia.org/wiki/XHTML). XML also provides the base language for communication protocols such as SOAP and XMPP. It is one of the message exchange formats used in the Asynchronous JavaScript and XML (AJAX) programming technique.
