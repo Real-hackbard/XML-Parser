@@ -75,6 +75,7 @@ Otherwise, color errors will occur.
 
 ```pascal
 procedure HightLight_Syntax(ARE : TRichEdit);
+begin
 {...}
 
   HighLight_Others('<root>', #13, clRed);  //
@@ -87,6 +88,7 @@ procedure HightLight_Syntax(ARE : TRichEdit);
   HighLight_Others('<?xml', '>', clTeal);  //
   HighLight_Others('http', '<', clNavy);   //
   HighLight_Others('<!--', '-->', clGray);
+end;
 ```
 
 The specifications must match in both units ```Unit1.pas``` and ```Keywords.pas```.
