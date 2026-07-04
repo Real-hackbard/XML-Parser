@@ -29,3 +29,7 @@ An XML parser is a software component that reads in XML (eXtensible Markup Langu
   The parser reads the entire XML document into memory and creates a tree-like structure (Document Object Model / DOM).
     * ```Advantages```  
       You can jump back and forth within the tree as you please, and edit, add, or delete elements.
+    * ```Disadvantages```
+      High memory usage. With extremely large files, this can lead to memory overflows.
+    * ```Typical libraries```
+      XmlDoc (Delphi) XmlDocument (C#/.NET), DOMDocument (JavaScript), xml.dom.minidom (Python).
