@@ -24,5 +24,5 @@ An XML parser is a software component that reads in XML (eXtensible Markup Langu
 
 ### There are two fundamental types of XML parsers:
 
-* Tree-based parsers (DOM)  
-The parser reads the entire XML document into memory and creates a tree-like structure (Document Object Model / DOM).
+* Tree-based parsers (DOM)
+  The parser reads the entire XML document into memory and creates a tree-like structure (Document Object Model / DOM).
