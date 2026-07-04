@@ -90,7 +90,6 @@ procedure HightLight_Syntax(ARE : TRichEdit);
 ```
 
 The specifications must match in both units ```Unit1.pas``` and ```Keywords.pas```.
-
 The code is designed so that the keywords are used for the XML tags, which in this case are displayed in blue.
 
 # Text Formatting:
