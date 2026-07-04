@@ -40,5 +40,5 @@ An XML parser is a software component that reads in XML (eXtensible Markup Langu
       Extremely fast and memory-efficient, as the tree is not kept in memory. Ideal for very large files.
     * ### Disadvantages
       Access is unidirectional (no jumping back). Complex searches are more cumbersome to program.
-    * Typical libraries  
+    * ### Typical libraries  
       XmlDocReader (Delphi) XmlReader (C#/.NET), xml.sax (Python), SAXParser (Java).
