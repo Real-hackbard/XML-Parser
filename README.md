@@ -68,3 +68,10 @@ The strings entered in the "KeyWords.ini" file are displayed in a default color.
 If values are changed, added, or removed, the same change must be applied in the
 ```"Keywords.pas"``` unit.
 Otherwise, color errors will occur.
+
+# Text Formatting:
+Formatting XML text usually involves either indenting it for better readability (pretty-printing) or preserving text formatting (such as line breaks and whitespace) within the data.
+
+* Line Feed (LF): ```&#xA;```
+* Carriage Return (CR): ```&#13;``` or ```&#xD;```
+* Tab: ```&#x9;```
