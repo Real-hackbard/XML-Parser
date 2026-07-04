@@ -65,7 +65,7 @@ Export Formats: ```XML; XSL; RTF; DOC; INI; TXT; HTML;```
 ```
 
 # Keywords:
-The strings entered in the "KeyWords.ini" file are displayed in a default color. Generally, XML tags are green, but other colors can be selected.
+The strings entered in the ```"KeyWords.ini"``` file are displayed in a default color. Generally, XML tags are green, but other colors can be selected.
 
 If values are changed, added, or removed, the same change must be applied in the
 ```"Keywords.pas"``` unit.
