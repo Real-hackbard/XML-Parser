@@ -33,3 +33,8 @@ An XML parser is a software component that reads in XML (eXtensible Markup Langu
       High memory usage. With extremely large files, this can lead to memory overflows.
     * ### Typical libraries
       XmlDoc (Delphi) XmlDocument (C#/.NET), DOMDocument (JavaScript), xml.dom.minidom (Python).
+
+* ### Event-based parsers (SAX)
+  These parsers read the XML document sequentially from top to bottom (stream-based). They generate events (e.g., "start element found," "text found").
+    * ### Advantages
+      Extremely fast and memory-efficient, as the tree is not kept in memory. Ideal for very large files.
