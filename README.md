@@ -75,3 +75,11 @@ Formatting XML text usually involves either indenting it for better readability 
 * Line Feed (LF): ```&#xA;```
 * Carriage Return (CR): ```&#13;``` or ```&#xD;```
 * Tab: ```&#x9;```
+
+To structure text with line breaks and ensure the parser maintains them:
+
+```xml
+<message>
+    Line 1 of text &#xA;Line 2 of text &#xA;Line 3 of text
+</message>
+```
