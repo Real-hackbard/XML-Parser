@@ -90,7 +90,7 @@ procedure HightLight_Syntax(ARE : TRichEdit);
 ```
 
 The specifications must match in both units ```Unit1.pas``` and ```Keywords.pas```.
-The code is designed so that the keywords are used for the XML tags, which in this case are displayed in blue.
+The code is designed so that the keywords are used for the XML tags, which in this case are displayed in blue. That would be important for the HTML export if it is to be displayed in color.
 
 # Text Formatting:
 Formatting XML text usually involves either indenting it for better readability (pretty-printing) or preserving text formatting (such as line breaks and whitespace) within the data.
