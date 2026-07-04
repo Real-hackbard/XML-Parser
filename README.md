@@ -76,7 +76,8 @@ Otherwise, color errors will occur.
 ```pascal
 procedure HightLight_Syntax(ARE : TRichEdit);
 begin
-{...}
+
+  {...}
 
   HighLight_Others('<root>', #13, clRed);  //
   HighLight_Others('</root>', #13, clRed); //
