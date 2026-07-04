@@ -71,6 +71,26 @@ If values are changed, added, or removed, the same change must be applied in the
 ```"Keywords.pas"``` unit.
 Otherwise, color errors will occur.
 
+</br>
+
+```pascal
+procedure HightLight_Syntax(ARE : TRichEdit);
+{...}
+
+  HighLight_Others('<root>', #13, clRed);  //
+  HighLight_Others('</root>', #13, clRed); //
+  HighLight_Others('<body>', #13, $00d94fdb);  //
+  HighLight_Others('</body>', #13, $00d94fdb); //
+  HighLight_Others('<head>', #13, $005f912d);  //
+  HighLight_Others('</head>', #13, $005f912d); //
+  HighLight_Others('<?', '?>', clOlive);
+  HighLight_Others('<?xml', '>', clTeal);  //
+  HighLight_Others('http', '<', clNavy);   //
+  HighLight_Others('<!--', '-->', clGray);
+```
+
+The specifications must match in both units ```Unit1.pas``` and ```Keywords.pas```.
+
 The code is designed so that the keywords are used for the XML tags, which in this case are displayed in blue.
 
 # Text Formatting:
