@@ -65,6 +65,6 @@ An XML parser is a software component that reads in XML (eXtensible Markup Langu
 # Keywords:
 The strings entered in the "KeyWords.ini" file are displayed in a default color. Generally, XML tags are green, but other colors can be selected.
 
-If values are changed, added, or removed here, the same change must be applied in the
+If values are changed, added, or removed, the same change must be applied in the
 ```"Keywords.pas"``` unit.
 Otherwise, color errors will occur.
