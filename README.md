@@ -20,3 +20,9 @@ The design goals of XML emphasize simplicity, generality, and usability across t
 
 </br>
 
+An XML parser is a software component that reads in XML (eXtensible Markup Language) documents, checks them for syntax errors, and translates them into a format readable by programs (often an object model). Since XML is inherently just a raw text stream, the parser converts this text into a hierarchical structure that your application can work with.
+
+### There are two fundamental types of XML parsers:
+
+* Tree-based parsers (DOM)
+The parser reads the entire XML document into memory and creates a tree-like structure (Document Object Model / DOM).
